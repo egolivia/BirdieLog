@@ -46,7 +46,7 @@
 <style>
   .question-text {
     perspective: 1000px;
-    margin-bottom: 0.1rem;
+    margin-bottom: 1rem;
   }
 
   .card-wrapper {
@@ -56,7 +56,7 @@
   .card {
     position: relative;
     width: 100%;
-    min-height: 220px;
+    min-height: 300px;
     transform-style: preserve-3d;
     transition: transform 0.6s ease;
     border-radius: 1.75rem;
@@ -81,7 +81,7 @@
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: flex-start;
     padding: 1.5rem;
   }
 
@@ -90,14 +90,11 @@
   }
 
   .answer-container {
-    position: absolute;
-    bottom: 1.5rem;
-    left: 0;
-    right: 0;
-    padding: 0 2rem;
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
     gap: 1rem;
+    margin-top: 2rem;
+    width: 100%;
   }
 
   .answer-btn {
