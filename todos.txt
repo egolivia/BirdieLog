@@ -1,7 +1,34 @@
 
 Add Tab Info/ Quelle mit Quellen zu Bildern etc
-
-
-
-"Weiter Button" auf hinterseite der frage entfernen
 Braucht es +page.svelte in "regeln"??
+
+Ordnerstruktur -> club new id löschen
+
+// BirdieLog Home 
+- Darstellung -> ok
+- Textinhalt -> ok
+- Quellen!!!!!!
+
+// Golfclubs 
+- Überschrift anpassen -> ok
+
+// Scorecards
+- Evtl. Filterbar/ Suchfunktion
+- Scorecard und Button auf gleiche höhe bringen -> ok
+- Scorecard hinzufügen/ löschen testen (inkl. Update Scoreverlauf)
+
+
+//Scoreverlauf
+- Zurück Button -> ok
+- Schöner darstellen
+
+
+
+//Videos
+- Abschnitte einführen -> ok
+    > Highlights
+    > Tutorial 
+    > ...
+
+
+//Quellen & Info
