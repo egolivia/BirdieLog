@@ -88,14 +88,7 @@
     width: 100%;
     margin-bottom: 2rem;
   }
-  .ueberschrift {
-    font-size: 1.0rem;
-    line-height: 1.5;
-    padding-right: 2rem;
-    font-weight: bold;
-    margin-top: 1rem;
-    margin-bottom: 0.1rem;
-  }
+ 
   .text {
     font-size: 0.95rem;
     line-height: 1.5;
