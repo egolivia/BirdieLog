@@ -32,43 +32,43 @@
     <div class="collapse navbar-collapse" id="navbarNav">
       <ul class="navbar-nav d-flex align-items-center">
 
-        <div class="nav-divider"></div>
+        
 
         <li class="nav-item">
           <a class="nav-link text-white" class:active={$page.url.pathname === '/clubs'} href="/clubs">Golfclubs</a>
         </li>
 
-        <div class="nav-divider"></div>
+        
 
         <li class="nav-item">
           <a class="nav-link text-white" class:active={$page.url.pathname === '/scorecards'} href="/scorecards">Scorecards</a>
         </li>
 
-        <div class="nav-divider"></div>
+        
 
         <li class="nav-item">
           <a class="nav-link text-white" class:active={$page.url.pathname === '/scorecards/graph'} href="/scorecards/graph">Scoreverlauf</a>
         </li>
 
-        <div class="nav-divider"></div>
+        
 
         <li class="nav-item">
           <a class="nav-link text-white" class:active={$page.url.pathname === '/quiz'} href="/quiz">Regeln & Quiz</a>
         </li>
 
-        <div class="nav-divider"></div>
+        
 
         <li class="nav-item">
           <a class="nav-link text-white" class:active={$page.url.pathname === '/videos'} href="/videos">Videos</a>
         </li>
 
-        <div class="nav-divider"></div>
+        
 
         <li class="nav-item">
           <a class="nav-link text-white" class:active={$page.url.pathname === '/quellen'} href="/quellen">Quellen</a>
         </li>
 
-        <div class="nav-divider"></div>
+        
         
       </ul>
     </div>
@@ -104,11 +104,4 @@
     border-bottom: 2px solid white !important;
   }
 
-  .nav-divider {
-    width: 1px;
-    height: 20px;
-    background-color: white;
-    opacity: 0.5;
-    margin: 0 0.75rem;
-  }
 </style>

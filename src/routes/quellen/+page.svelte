@@ -1,7 +1,7 @@
 <br>
 <h3>BirdieLog</h3>
 <ul class="styled-list">
-  <li><strong>Video: </strong> www.abc.ch</li>
+  <li><strong>Video: </strong> 🛑⚠️🛑⚠️🛑⚠️🛑⚠️🛑⚠️🛑⚠️🛑</li>
   <li><strong>Bild Arnold Palmer: </strong> https://www.golf-alcanada.com/de/neuigkeiten/aktuelle-neuigkeiten/beste-golfspieler-der-geschichte</li>
   <li><strong>Fussnote<sup>1</sup>: </strong> https://de.wikipedia.org/wiki/Birdie_(Golf)#:~:text=Im%20Golfsport%20wird%20ein%20Ergebnis,hat%20er%20einen%20Birdie%20gespielt.</li>
   <!-- Weitere Einträge -->
