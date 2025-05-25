@@ -39,7 +39,7 @@ export async function getAllScorecards() {
   return cards.map(card => ({
     ...card,
     _id: card._id.toString(),
-    clubID: card.clubID.toString() // ❗ MUSS String sein
+    clubID: card.clubID.toString() 
   }));
 }
 
