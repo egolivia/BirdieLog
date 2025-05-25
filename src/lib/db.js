@@ -113,13 +113,3 @@ export async function getRandomQuizQuestions(count = 6) {
 }
 
 
-export async function getRandomQuizQuestions(count = 6) {
-  const questions = await db.collection("quizzes")
-    .aggregate([{ $sample: { size: count } }])
-    .toArray();
-
-  return questions.map(q => ({
-    ...q,
-    _id: q._id.toString() // zur Sicherheit serialisieren
-  }));
-}
