@@ -13,25 +13,25 @@
   }
 </script>
 
-<div class="card-wrapper flex-1">
-  <div class="card flex-1 {$answered ? 'flipped' : ''}">
-    <div class="front p-6">
-      <p class="question-text">{question.question}</p>
-      <div class="answer-container">
-        {#each question.options as option, i}
-          <button
-            class="answer-btn"
-            onclick={() => handleClick(i)}
-            disabled={$answered}
-          >
-            {option}
-          </button>
-        {/each}
+<div class="card-wrapper">
+  <div class="card">
+    {#if !$answered}
+      <div class="front">
+        <p class="question-text">{question.question}</p>
+        <div class="answer-container">
+          {#each question.options as option, i}
+            <button
+              class="answer-btn"
+              onclick={() => handleClick(i)}
+              disabled={$answered}
+            >
+              {option}
+            </button>
+          {/each}
+        </div>
       </div>
-    </div>
-
-    <div class="back flex flex-col justify-between h-full p-6">
-      <div>
+    {:else}
+      <div class="back">
         {#if $isCorrect}
           <p class="richtig">🎉 Richtig!!</p>
         {:else}
@@ -39,78 +39,53 @@
         {/if}
         <p class="mt-4 text-gray-700 text-base">{question.explanation}</p>
       </div>
-    </div>
+    {/if}
   </div>
 </div>
 
 <style>
-  .question-text {
-    perspective: 1000px;
-    margin-bottom: 1rem;
-  }
-
   .card-wrapper {
-    perspective: 1000px;
+    width: 100%;
+    margin-top: 1rem;
   }
 
   .card {
-    position: relative;
     width: 100%;
-    min-height: 300px;
-    transform-style: preserve-3d;
-    transition: transform 0.6s ease;
     border-radius: 1.75rem;
-    border-width: 0.2rem;
-    border-color: #064216;
-    margin-top: 0.1rem;
-  }
-
-  .card.flipped {
-    transform: rotateY(180deg);
-  }
-
-  .front,
-  .back {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    backface-visibility: hidden;
-    border: none;
-    border-radius: 1.5rem;
+    border: 0.2rem solid #064216;
     background: white;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+    padding: 1.5rem;
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
-    padding: 1.5rem;
+    gap: 1rem;
   }
 
-  .back {
-    transform: rotateY(180deg);
+  .question-text {
+    font-weight: bold;
+    font-size: 1.1rem;
   }
 
   .answer-container {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
     gap: 1rem;
-    margin-top: 2rem;
     width: 100%;
   }
 
   .answer-btn {
     font-size: 0.95rem;
-    line-height: 1.5;
-    font-weight: 450;
+    font-weight: 500;
     background-color: #042809;
-    color: #fff;
+    color: white;
     padding: 0.75rem 1rem;
     text-align: center;
     border: none;
+    border-radius: 0.5rem;
     cursor: pointer;
-    transition: background-color 0.2s ease;
     width: 100%;
     min-height: 64px;
-    border-radius: 0.5rem;
+    transition: background-color 0.2s ease;
   }
 
   .answer-btn:hover:not(:disabled) {
@@ -132,5 +107,12 @@
     color: #137924;
     font-weight: bold;
     font-size: larger;
+  }
+
+  @media (max-width: 480px) {
+    .answer-btn {
+      font-size: 0.9rem;
+      padding: 0.6rem;
+    }
   }
 </style>
