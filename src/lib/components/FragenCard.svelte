@@ -48,13 +48,14 @@
     perspective: 1000px;
     margin-bottom: 0.1rem;
   }
+
   .card-wrapper {
     perspective: 1000px;
   }
+
   .card {
     position: relative;
     width: 100%;
-    height: flex;
     min-height: 220px;
     transform-style: preserve-3d;
     transition: transform 0.6s ease;
@@ -63,9 +64,11 @@
     border-color: #064216;
     margin-top: 0.1rem;
   }
+
   .card.flipped {
     transform: rotateY(180deg);
   }
+
   .front,
   .back {
     position: absolute;
@@ -86,41 +89,31 @@
     transform: rotateY(180deg);
   }
 
-  .answer-btn {
-    position: aligned;
-
-    font-size: 0.95rem;
-    line-height: 1.5;
-    padding-right: 2rem;
-    font-weight: 450 ;
-    
-    background-color: #042809;
-    color: #fff;
-    padding: 0.75rem 1rem;
-    
-    text-align: center;
-    border: none;
-    cursor: pointer;
-    transition: background-color 0.2s ease;
-    
-    height: auto;
-    width: 100%;
-    min-height: 64px;
-
-    margin: 0.1rem 0.1rem 0.5rem 0.1rem; /* oben, rechts, unten, links */
-    border-radius: 0.5rem;
-   
-
-  }
-  .answer-container{
+  .answer-container {
     position: absolute;
     bottom: 1.5rem;
     left: 0;
     right: 0;
-    padding: 0 2.0rem;
+    padding: 0 2rem;
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 1.5rem;
+    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+    gap: 1rem;
+  }
+
+  .answer-btn {
+    font-size: 0.95rem;
+    line-height: 1.5;
+    font-weight: 450;
+    background-color: #042809;
+    color: #fff;
+    padding: 0.75rem 1rem;
+    text-align: center;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+    width: 100%;
+    min-height: 64px;
+    border-radius: 0.5rem;
   }
 
   .answer-btn:hover:not(:disabled) {
@@ -131,15 +124,16 @@
     opacity: 0.6;
     cursor: default;
   }
-  .falsch{
-    color: #EB0803;
-    font-weight: bold;
-    font-size: larger;
-  }
-  .richtig{
-    color: #137924;
+
+  .falsch {
+    color: #eb0803;
     font-weight: bold;
     font-size: larger;
   }
 
+  .richtig {
+    color: #137924;
+    font-weight: bold;
+    font-size: larger;
+  }
 </style>
