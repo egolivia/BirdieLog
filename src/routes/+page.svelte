@@ -10,43 +10,43 @@
 </h1>
 
 
-
 <div class="container-fluid">
   <div class="row">
-    <!-- Links (Fkt.) -->
-     <div class="video"><video width="640" height="360" controls autoplay loop muted playsinline>
-  <source src="/images/media/BirdieLogVideo.mp4" type="video/mp4" />
-  <track kind="captions" src="/videos/untertitel.vtt" srclang="de" label="Deutsch" />
-</video>
-</div>
-    
+    <!-- Linke Spalte: Video -->
+    <div class="col-12 col-lg-6 mb-4">
+      <div class="video">
+        <video class="w-100" controls autoplay loop muted playsinline>
+          <source src="/images/media/BirdieLogVideo.mp4" type="video/mp4" />
+          <track kind="captions" src="/videos/untertitel.vtt" srclang="de" label="Deutsch" />
+        </video>
+      </div>
     </div>
 
-    <!-- Rechts -->
-    <div class="col-lg-6 mb-4">
-      <div class="card w-100 h-30">
+    <!-- Rechte Spalte: Cards -->
+    <div class="col-12 col-lg-6 mb-4">
+      <!-- Card 1 -->
+      <div class="card w-100 mb-4">
         <div class="card-body">
           <h4 class="card-title">Was ist ein Birdie?</h4>
           <hr class="custom-divider" />
-
-          <div class="ueberschrift"></div>
-          <div class="text">Im Golfsport wird das Ergebnis an einem Loch Birdie genannt, wenn das Loch mit einem Schlag weniger gespielt wurde, als es die vom Platz vorgegeben wurde. Birdies sind also das, was jeder Golfspieler anstrebt, von Amateur bis Profi-Spieler. Leider sind diese aber nicht so einfach zu erzielen, besonders nicht als Anfänger.</div>
+          <div class="text">Im Golfsport wird das Ergebnis an einem Loch Birdie genannt, wenn ...</div>
         </div>
       </div>
-      <div class="card w-100 h-30">
+
+      <!-- Card 2 -->
+      <div class="card w-100 mb-4">
         <div class="card-body">
           <h4 class="card-title">Warum ist BirdieLog entstanden?</h4>
           <hr class="custom-divider" />
-          <div class="text">BirdieLog ist das Resultat aus meinem naiven Golf-Anfänger-Optimismus und "unternehmerischer Weitsicht". Konkret; eine Webanwendung, die jetzt schon bereit ist  Birdies zu registrieren, 
-            auch wenn ich noch mit Bogeys+ kämpfe.</div>
+          <div class="text">BirdieLog ist das Resultat aus meinem naiven Golf-Anfänger-Optimismus ...</div>
         </div>
       </div>
-      <div class="card w-100 h-30">
-        <div class="card-body">
-          <h4 class="card-title">⛳ Exurs - Golfbegriffe</h4>
-          <hr class="custom-divider" />
 
-          <div class="ueberschrift"></div>
+      <!-- Card 3 -->
+      <div class="card w-100 mb-4">
+        <div class="card-body">
+          <h4 class="card-title">⛳ Exkurs - Golfbegriffe</h4>
+          <hr class="custom-divider" />
           <div class="text">
             <ul class="golf-begriffe">
               <li><strong>Eagle:</strong> 2 Schläge unter Par – für Hobbygolfer kaum möglich.</li>
@@ -55,12 +55,13 @@
               <li><strong>Bogey:</strong> 1 Schlag über Par – kommt oft vor.</li>
               <li><strong>Double Bogey:</strong> 2 Schläge über Par – passiert.</li>
               <li><strong>Triple Bogey:</strong> 3 Schläge über Par – tut weh.</li>
-            </ul></div>
+            </ul>
+          </div>
         </div>
       </div>
     </div>
   </div>
-
+</div>
 
 <style>
   .golf-begriffe li {
@@ -113,11 +114,10 @@
     margin-bottom: 0.3rem;
     margin-top: 0.3rem;
   }
-  .video{
-    display: flex;
-    justify-content: left;
-    margin-bottom: 2rem;
-  }
-
+  .video video {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
 
 </style>
