@@ -73,14 +73,15 @@
 
 <style>
   .grid {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 1rem;
-    margin-top: 2rem;
-  }.card {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 1rem;
+  margin-top: 2rem;
+}
+  .card {
   background-color: #072d0a;
   border: 2px solid #09440e;
-  border-radius: 0.5em;
+  border-radius: 0.5rem;
   color: aliceblue;
   font-family: "Segoe UI", sans-serif;
   text-decoration: none;
