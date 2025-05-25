@@ -1,0 +1,10 @@
+body {
+  background-color: rgba(189, 212, 193, 0.176);
+  color: #052808;                /* Schriftfarbe */
+  font-family: "Segoe UI", sans-serif; /* Schriftart */
+  font-size: 16px;            /* Grundgröße */
+  line-height: 1.6;           /* Zeilenhöhe */
+}
+body {
+  font-family: "Segoe UI",sans-serif;
+}

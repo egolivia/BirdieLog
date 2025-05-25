@@ -1,0 +1,19 @@
+<!-- Regel 3 -->
+     <div class="col-lg-6 mb-4">
+      <div class="card w-100 h-100">
+        <div class="card-body">
+          <h4 class="card-title">Regel X</h4>
+          <hr class="custom-divider" />
+
+          <div class="ueberschrift"></div>
+          <div class="text"></div>
+          
+          <div class="ueberschrift"></div>
+          <div class="text"></div>
+
+          <div class="ueberschrift"></div>
+          <div class="text"></div>
+
+        </div>
+      </div>
+    </div>

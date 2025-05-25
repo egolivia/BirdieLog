@@ -1,0 +1,1 @@
+export { default as component } from "../../../../src/routes/quiz/regeln/teil5/+page.svelte";

@@ -1,0 +1,7 @@
+
+Add Tab Info/ Quelle mit Quellen zu Bildern etc
+
+
+
+"Weiter Button" auf hinterseite der frage entfernen
+Braucht es +page.svelte in "regeln"??
