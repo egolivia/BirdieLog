@@ -24,12 +24,16 @@
   }
 </script>
 
-<div class="d-flex justify-content-end mb-3">
-  <a href="/scorecards/new" class="btn btn-success">Neue Scorecard erfassen</a>
+<div class="titel-teilX">
+<div class="container-fluid mb-4">
+  <div class="d-flex justify-content-between align-items-center">
+    <h1 class="titel">Scorecards</h1>
+<hr class="border-top border-dark my-3" />
+    <a href="/scorecards/new" class="btn btn-success">Neue Scorecard erfassen</a>
+  </div>
+</div>
 </div>
 
-<h1 class="titel">Scorecards</h1>
-<hr class="border-top border-dark my-3" />
 
 <table class="tabelle table table-hover align-middle">
   <thead>
@@ -101,3 +105,4 @@
     vertical-align: middle;
   }
 </style>
+

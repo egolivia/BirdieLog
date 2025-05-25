@@ -80,6 +80,13 @@
 </div>
 
 <style>
+  .navbar-toggler {
+  border-color: rgba(255, 255, 255, 0.5); /* optional: weißer Rahmen */
+}
+
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(255, 255, 255, 1)' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
   .custom-navbar {
     background-color: #052808 !important;
   }

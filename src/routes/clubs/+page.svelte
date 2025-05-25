@@ -3,7 +3,7 @@
   const { data } = $props();
 </script>
 <br>
-<h1 class="mb-4">Alle Golfclubs</h1>
+<h1 class="mb-4">Übersicht Golfclubs</h1>
 
 <div class="row">
   {#each data.clubs as club}

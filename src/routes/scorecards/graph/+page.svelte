@@ -78,6 +78,8 @@
   });
 </script>
 
+<a href="/scorecards" class="btn btn-outline-dark mb-4">← Zurück zur Übersicht</a>
+
 <style>
   .chart-wrapper {
     width: 100%;
