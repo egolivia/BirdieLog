@@ -9,7 +9,6 @@ await client.connect();
 export const db = client.db("BirdieLog");
 
 
-
 export async function getClubById(id) {
   const collection = db.collection("clubs");
 
@@ -43,7 +42,6 @@ export async function getAllScorecards() {
   }));
 }
 
-
 export async function getScorecardById(id) {
   let objectId;
   try {
@@ -63,8 +61,6 @@ export async function getScorecardById(id) {
     scores: card.scores ?? [] // fallback falls scores fehlt
   };
 }
-
-
 
 export async function getAllScorecardsWithClubs() {
   const scorecards = await db.collection("scorecards").find().toArray();
@@ -91,11 +87,9 @@ export async function getAllClubs() {
   }));
 }
 
-
 export async function insertScorecard(scorecard) {
   await db.collection('scorecards').insertOne(scorecard);
 }
-
 
 export async function deleteScorecard(id) {
   const collection = db.collection("scorecards");

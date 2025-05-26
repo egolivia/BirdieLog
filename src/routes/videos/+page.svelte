@@ -1,4 +1,3 @@
-
 <div class="section">Highlights</div>
 <div class="container">
   <div class="row gx-3">
