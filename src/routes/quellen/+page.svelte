@@ -1,14 +1,15 @@
+
 <br>
 <h3>BirdieLog</h3>
 <ul class="styled-list">
-  <li><strong>Video: </strong> 🛑⚠️🛑⚠️🛑⚠️🛑⚠️🛑⚠️🛑⚠️🛑</li>
+  <li><strong>Video: </strong> https://www.instagram.com/reel/DDewOrZt55V/?utm_source=ig_web_copy_link</li>
   <li><strong>Bild Arnold Palmer: </strong> https://www.golf-alcanada.com/de/neuigkeiten/aktuelle-neuigkeiten/beste-golfspieler-der-geschichte</li>
   <li><strong>Fussnote<sup>1</sup>: </strong> https://de.wikipedia.org/wiki/Birdie_(Golf)#:~:text=Im%20Golfsport%20wird%20ein%20Ergebnis,hat%20er%20einen%20Birdie%20gespielt.</li>
   <!-- Weitere Einträge -->
 </ul>
 <br>
 <hr class="custom-divider" />
-<br>
+
 <h3>Golfclubs</h3>
 <p>Sämtliche Pläne der Golfplätze stammen von www.golf.ch. <br>Sämtliche Informationen zu den Golfclubs, sowie Clublogos wurden den offiziellen Webseiten der jeweiligen Clubs entnommen.</p>
 <div style="display: flex; flex-wrap: wrap; gap: 2rem;">
@@ -38,7 +39,7 @@
   </ul>
 </div>
 <hr class="custom-divider" />
-<br>
+
 
 <h3>Regeln & Quiz</h3>
 <ul class="styled-list">

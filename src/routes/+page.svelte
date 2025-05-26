@@ -9,6 +9,8 @@
   <div class="header">Willkommen bei BirdieLog</div>
 </h1>
 
+
+
 <!-- 🔝 Erste Zeile mit Video & Zitat -->
 <div class="container-fluid">
   <div class="row align-items-stretch mt-4 mb-4">
@@ -16,7 +18,7 @@
     <div class="col-lg-8 mb-4">
       <div class="h-100 d-flex align-items-stretch">
         <video class="w-100 rounded" controls autoplay loop muted playsinline>
-          <source src="/images/media/BirdieLogVideo.mp4" type="video/mp4" />
+          <source src="/images/media/BirdieLogVideoStart.mp4" type="video/mp4" />
         </video>
       </div>
     </div>
